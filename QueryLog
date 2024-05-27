@@ -1,0 +1,5 @@
+
+
+FAILED_RDP_WITH_GEO_CL
+| parse RawData with * "latitude:" Latitude ",longitude:" Longitude ",destinationhost:" DestinationHost ",username:" Username ",sourcehost:" SourceHost ",state:" State ", country:" Country ",label:" Label ",timestamp:" Timestamp
+| project Latitude, Longitude, DestinationHost, Username, SourceHost, State, Country, Label, Timestamp
